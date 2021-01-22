@@ -4,7 +4,7 @@ import playsound
 alarmhour = int(input("what hour do you want to set the alarm?"))
 alarmminute = int(input("what minute do you want to set the alarm?"))
 amPm = str(input("am or pm?"))
-print("Alarm Set")
+print("Alarm Successfully Set!")
 if(amPm == 'pm'):
     alarmhour += 12
 
