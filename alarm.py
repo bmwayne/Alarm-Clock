@@ -11,5 +11,5 @@ if(amPm == 'pm'):
 while(True):
     if(alarmhour == datetime.datetime.now().hour and alarmminute == datetime.datetime.now().minute):
         print("wake up mando")
-        playsound.playsound("D:\python\'alarmclock\'mando.mp3")
+        playsound.playsound("D:\python\'alarmclock\'mandalorian.mp3")
         break
